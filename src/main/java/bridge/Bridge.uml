@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bridge.Apple</OriginalElement>
+  <nodes>
+    <node x="376.27362637362637" y="117.0">bridge.BaseComputer</node>
+    <node x="342.9509157509158" y="331.0">bridge.Test</node>
+    <node x="470.2236263736264" y="224.0">bridge.Laptop</node>
+    <node x="308.9893772893773" y="0.0">bridge.Brand</node>
+    <node x="242.0" y="117.0">bridge.Lenovo</node>
+    <node x="333.2236263736264" y="224.0">bridge.Desktop</node>
+    <node x="0.0" y="117.0">bridge.Apple</node>
+    <node x="116.0" y="117.0">bridge.Xiaomi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bridge.Test" target="bridge.Lenovo">
+      <point x="-17.400000000000006" y="-28.5" />
+      <point x="369.05091575091575" y="301.0" />
+      <point x="295.0" y="301.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bridge.Test" target="bridge.Laptop">
+      <point x="34.80000000000001" y="-28.5" />
+      <point x="421.2509157509158" y="311.0" />
+      <point x="523.2236263736264" y="311.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bridge.Test" target="bridge.Apple">
+      <point x="-34.80000000000001" y="-28.5" />
+      <point x="351.6509157509158" y="311.0" />
+      <point x="48.0" y="311.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bridge.Laptop" target="bridge.BaseComputer">
+      <point x="0.0" y="-28.5" />
+      <point x="65.59999999999997" y="28.5" />
+    </edge>
+    <edge source="bridge.Desktop" target="bridge.Brand">
+      <point x="-38.666666666666686" y="-28.5" />
+      <point x="352.55695970695973" y="199.0" />
+      <point x="358.5" y="199.0" />
+      <point x="358.5" y="97.0" />
+      <point x="356.9893772893773" y="97.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bridge.Lenovo" target="bridge.Brand">
+      <point x="0.0" y="-28.5" />
+      <point x="295.0" y="97.0" />
+      <point x="343.27509157509155" y="97.0" />
+      <point x="-13.714285714285722" y="28.5" />
+    </edge>
+    <edge source="bridge.Test" target="bridge.BaseComputer">
+      <point x="17.399999999999977" y="-28.5" />
+      <point x="403.85091575091576" y="301.0" />
+      <point x="459.7236263736264" y="301.0" />
+      <point x="459.7236263736264" y="199.0" />
+      <point x="458.27362637362637" y="199.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bridge.Xiaomi" target="bridge.Brand">
+      <point x="5.6843418860808015E-14" y="-28.5" />
+      <point x="169.00000000000006" y="87.0" />
+      <point x="329.56080586080583" y="87.0" />
+      <point x="-27.428571428571445" y="28.5" />
+    </edge>
+    <edge source="bridge.BaseComputer" target="bridge.Brand">
+      <point x="-41.0" y="-28.5" />
+      <point x="417.27362637362637" y="97.0" />
+      <point x="370.703663003663" y="97.0" />
+      <point x="13.714285714285722" y="28.5" />
+    </edge>
+    <edge source="bridge.Apple" target="bridge.Brand">
+      <point x="0.0" y="-28.5" />
+      <point x="48.0" y="77.0" />
+      <point x="315.8465201465201" y="77.0" />
+      <point x="-41.14285714285714" y="28.5" />
+    </edge>
+    <edge source="bridge.Test" target="bridge.Desktop">
+      <point x="0.0" y="-28.5" />
+      <point x="386.4509157509158" y="311.0" />
+      <point x="391.2236263736264" y="311.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="bridge.Laptop" target="bridge.Brand">
+      <point x="35.333333333333314" y="-28.5" />
+      <point x="558.5569597069598" y="199.0" />
+      <point x="553.940293040293" y="199.0" />
+      <point x="553.940293040293" y="77.0" />
+      <point x="398.1322344322344" y="77.0" />
+      <point x="41.14285714285711" y="28.5" />
+    </edge>
+    <edge source="bridge.Desktop" target="bridge.BaseComputer">
+      <point x="38.666666666666686" y="-28.5" />
+      <point x="429.8902930402931" y="199.0" />
+      <point x="425.47362637362636" y="199.0" />
+      <point x="-32.80000000000001" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="288.5" y="201.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

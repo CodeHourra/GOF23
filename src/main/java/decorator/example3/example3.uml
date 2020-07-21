@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>decoratorpattern.example3</OriginalElement>
+  <nodes>
+    <node x="11.5" y="103.0">decoratorpattern.example3.ShapeDecorator</node>
+    <node x="395.5" y="127.0">decoratorpattern.example3.Circle</node>
+    <node x="242.5" y="127.0">decoratorpattern.example3.Rectangle</node>
+    <node x="242.5" y="0.0">decoratorpattern.example3.Shape</node>
+    <node x="0.0" y="399.0">decoratorpattern.example3.DecoratorPatternDemo</node>
+    <node x="0.0" y="254.0">decoratorpattern.example3.RedShapeDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="decoratorpattern.example3.Rectangle" target="decoratorpattern.example3.Shape">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="decoratorpattern.example3.ShapeDecorator" target="decoratorpattern.example3.Shape">
+      <point x="0.0" y="-50.5" />
+      <point x="117.0" y="78.0" />
+      <point x="264.6666666666667" y="78.0" />
+      <point x="-44.333333333333314" y="26.5" />
+    </edge>
+    <edge source="decoratorpattern.example3.Circle" target="decoratorpattern.example3.Shape">
+      <point x="0.0" y="-26.5" />
+      <point x="462.0" y="78.0" />
+      <point x="353.33333333333337" y="78.0" />
+      <point x="44.33333333333337" y="26.5" />
+    </edge>
+    <edge source="decoratorpattern.example3.RedShapeDecorator" target="decoratorpattern.example3.ShapeDecorator">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="264.5" y="226.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
