@@ -1,5 +1,4 @@
-package springproxy.static_proxy02;
-
+package proxy2.staticproxy.proxy02;
 /**
  * Created with IntelliJ IDEA.
  *
@@ -8,7 +7,7 @@ package springproxy.static_proxy02;
  * @Time: 21:27
  * @Description:
  */
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     @Override
     public void addUser() {
         System.out.println("增加用户");

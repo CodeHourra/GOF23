@@ -1,5 +1,4 @@
-package springproxy.static_proxy02;
-
+package proxy2.staticproxy.proxy02;
 /**
  * Created with IntelliJ IDEA.
  *
